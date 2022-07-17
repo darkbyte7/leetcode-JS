@@ -1,7 +1,3 @@
-// function isPalindrome(s) {
-//     return s == s.split('').reverse().join(''); // O(n)
-// }
-
 function isPalindrome(s) {
     const str = s.toLowerCase().replace(/[\W_]/g, '');
     let left = 0,
